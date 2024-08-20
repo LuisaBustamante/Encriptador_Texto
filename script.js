@@ -78,7 +78,7 @@ function desencriptar(stringDesencriptada) {
   return stringDesencriptada;
 }
 
-//manipula el dom para que algunos componentes aparezcan y desaparezcan de la pantalla
+//manipula el DOM para que algunos componentes aparezcan y desaparezcan de la pantalla
 function aparece() {
   document.getElementById("div-desaparece").style.display = "none";
   document.getElementById("div-aparece").style.display = "block";
